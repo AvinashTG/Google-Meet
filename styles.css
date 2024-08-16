@@ -1,16 +1,19 @@
 body {
     margin: 0px;
 }
+
 .bg-whole-container {
     background-color: #14161a;
     padding-bottom: 20px;
 }
+
 .top-icon {
     display: flex;
     flex-direction: row;
     padding: 15px;
     background-color: #14161a;
 }
+
 .icon-1, .icon-2 {
     background-color: darkorange;
     padding: 10px;
@@ -18,6 +21,13 @@ body {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.icon-2 {
+    background-color: red;
+    color: white;
+    margin-left: 10px;
+}
+
 .cards-container {
     display: flex;
     flex-direction: row;
@@ -25,6 +35,7 @@ body {
     flex-wrap: wrap;
     padding-top: 0px;
 }
+
 .card {
     background: #3c4043;
     border-radius: 10px;
@@ -40,23 +51,27 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border: rgb(87, 87, 226) solid 2px;
 }
+
 .head {
     color: #ffffff;
     font-size: 15px;
     text-align: start;
     font-family: 'Roboto';
 }
+
 .img {
     height: 15vh;
     width: 15vh;
     border-radius: 50px;
     align-self: center;
 }
+
 .icons-container {
     display: flex;
     flex-direction: column;
@@ -64,18 +79,21 @@ body {
     justify-content: end;
     cursor: pointer;
 }
+
 .mike {
     background-color: #14161a;
     padding: 8px;
     border-radius: 10px;
     color: #ffffff;
 }
+
 .dots {
     background-color: #3f7af1;
     padding: 8px;
     border-radius: 15px;
     color: #ffffff;
 }
+
 .Conversation-Symbol {
     display: flex;
     flex-direction: row;
@@ -83,11 +101,13 @@ body {
     color: white;
     border-radius: 20px;
 }
+
 .icon-con1, .icon-con2, .icon-con3 {
     background-color: #4e5055be;
     padding: 15px;
     cursor: pointer;
 }
+
 .icon-con1 {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -145,7 +165,6 @@ body {
 
 /* Mobile view adjustments */
 @media only screen and (max-width: 768px) {
-
     .footer-container {
         flex-direction: column;
         align-items: center;
@@ -153,7 +172,7 @@ body {
 
     .arrow-container {
         width: 60px;
-        margin-left: 15px;
+        margin-right: 10px;
     }
 
     .icon-end {
